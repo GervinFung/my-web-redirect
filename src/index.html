@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Redirect</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body
+        style="
+            font-family: 'Space Grotesk', sans-serif;
+            margin: 0;
+            background-color: var(--black);
+            display: flex;
+            box-sizing: border-box;
+        "
+    >
+        <div id="root" style="width: 100vw; display: grid; place-items: center">
+            <div id="app" style="display: grid; place-items: center">
+                <div class="scrollable">
+                    <div class="tenem white-font">Hello There!</div>
+                </div>
+                <div class="scrollable">
+                    <div class="nineem white-font">
+                        I <span class="light-blue-font">appreciate</span> that
+                        you are here...
+                    </div>
+                </div>
+                <div class="scrollable">
+                    <div class="nineem yellow-font">BUT!</div>
+                </div>
+                <div class="scrollable">
+                    <div class="nineem white-font">
+                        I am <span class="red-font">sorry</span> that the
+                        <span class="blue-font">page</span>
+                        you are looking for
+                        <span class="purple-font">cannot</span> be found
+                    </div>
+                </div>
+                <div class="scrollable">
+                    <div class="nineem yellow-font">FEAR NOT!</div>
+                </div>
+                <div class="scrollable">
+                    <div class="nineem white-font">
+                        Because rescue is
+                        <a
+                            id="redirect"
+                            class="green-font"
+                            href="https://gervinfungdaxuen.vercel.app"
+                            style="text-decoration: none"
+                            rel="noopener noreferrer"
+                            >HERE</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="module" src="./main.ts"></script>
+    </body>
+</html>

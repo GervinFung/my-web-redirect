@@ -1,0 +1,54 @@
+:root {
+    --black: #121212;
+    --white: #fff;
+    --red: #f44250;
+    --blue: #3992ff;
+    --light-blue: #3defe9;
+    --yellow: #fecc1b;
+    --green: #6bd968;
+    --purple: #d83bd2;
+}
+
+.tenem {
+    font-size: 10em;
+}
+
+.nineem {
+    font-size: 8em;
+}
+
+.scrollable {
+    min-height: 100vh;
+    display: grid;
+    text-align: center;
+    place-items: center;
+    margin: 0 8px;
+}
+
+.white-font {
+    color: var(--white);
+}
+
+.red-font {
+    color: var(--red);
+}
+
+.blue-font {
+    color: var(--blue);
+}
+
+.light-blue-font {
+    color: var(--light-blue);
+}
+
+.purple-font {
+    color: var(--purple);
+}
+
+.yellow-font {
+    color: var(--yellow);
+}
+
+.green-font {
+    color: var(--green);
+}

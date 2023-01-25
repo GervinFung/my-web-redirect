@@ -1,0 +1,14 @@
+{
+    "name": "my-web-redirect",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "start:development": "vite --host",
+        "start:production": "vite build && vite preview"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.18",
+        "typescript": "^4.5.4",
+        "vite": "^2.9.15"
+    }
+}
